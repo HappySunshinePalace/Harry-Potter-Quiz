@@ -75,7 +75,6 @@ h4 {
 
 li {
 	width: calc(50% - 2rem);
-	height: 4rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -127,7 +126,9 @@ label {
 
 li:hover label:hover {
 	cursor: pointer;
-	color: var(--blue);
+}
+li > label {
+	margin-left: 1.5em;
 }
 
 input:checked ~ label {
